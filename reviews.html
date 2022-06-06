@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews</title>
+    <link rel = "stylesheet" href = "css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+         $(document).ready(function(){
+        $("p").hover(function(){
+          $(this).css("background-color", "red");
+          }, function(){
+          $(this).css("background-color", "green");
+        });
+      });
+    </script>
+    </head>
+
+    <body>
+        <section id = "reviews">
+            <div class = "title">
+                <div class = "container">
+                    <h2>
+                        <i class = "fas fa-comments"></i> Featured Reviews
+                    </h2>
+                </div>
+            </div>
+            <div class = "container">
+                <article>
+                    <div class = "item-img">
+                        <a href = "#" onMouseOver = "document.myImage.src = image2.src;"
+                                 onMouseOut = "document.myImage.src = image1.src;">
+                        <img name = "myImage" src = "resources/images/review-1.jpg">
+                        </a>
+
+                    </div>
+                    <div class = "item-text">
+                        <a href = "#" class = "h1">
+                            <span class = "category">No Way</span>Amazing!
+                        </a>
+                        <p class = "text">No way Home game is one of the best PC game with oe of the biggest maps! <a href = "#">more...</a></p>
+                        <div class = "date">Reviews | Trending | 12:00 PM</div>
+                    </div>
+                </article>
+
+                <article>
+                    <div class = "item-img">
+                        <img src = "resources/images/review-2.jpg">
+                    </div>
+                    <div class = "item-text">
+                        <a href = "#" class = "h1">
+                            <span class = "category">Far cry</span>Terrific
+                        </a>
+                        <p class = "text">Far cry game is one of the best PC game with oe of the biggest maps! It has amazing graphics with very interactive gameplay.<a href = "#">more...</a> </p>
+                        <div class = "date">Reviews | Trending | 11:00 AM</div>
+                    </div>
+                </article>
+
+                <article>
+                    <div class = "item-img">
+                        <img src = "resources/images/review-3.jpg">
+                    </div>
+                    <div class = "item-text">
+                        <a href = "#" class = "h1">
+                            <span class = "category">Car Simulator</span>Average
+                        </a>
+                        <p class = "text">The game is just Average game it could had been better more engaging and interactive.<a href = "#">more...</a></p>
+                        <div class = "date">Reviews | Trending | 10:00 AM</div>
+                    </div>
+                </article>
+
+                <article>
+                    <div class = "item-img">
+                        <img src = "resources/images/review-4.jpg">
+                    </div>
+                    <div class = "item-text">
+                        <a href = "#" class = "h1">
+                            <span class = "category">Fortnite</span>Best of the best
+                        </a>
+                        <p class = "text">This game is one of the best PC game with oe of the biggest maps! It has amazing graphics with very interactive gameplay.<a href = "#">more...</a></p>
+                        <div class = "date">Reviews | Trending | 09:00 AM</div>
+                    </div>
+                </article>
+
+                <article>
+                    
+                    </div>
+                    <div class = "item-text">
+                        <a href = "#" class = "h1">
+                            <span class = "category">More reviews...</span>
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <script src = "js/zoom.js"></script>
+    </body>
+</html>
